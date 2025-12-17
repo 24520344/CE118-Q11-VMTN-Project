@@ -34,7 +34,7 @@
 - **Lập trình:** C++ (Viết Assembler).
 - **Thiết kế phần cứng:** Quartus II 13.0sp1 (Dựa trên định dạng file .bdf, .vwf, .v, ...).
 - **Mô phỏng:** University Program VWF.
-- **Thiết kế slide:** Canva, PowerPoint.
+- **Thiết kế slide:** Canva.
 
 ## 📊 Hiệu năng vi xử lý
 <img width="738" height="722" alt="CPU 16-bit Performance Report" src="https://github.com/user-attachments/assets/b0d4a231-acdc-4f1a-9fcf-bf850cc6eb4a" />
