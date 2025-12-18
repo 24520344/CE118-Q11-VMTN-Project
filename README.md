@@ -30,6 +30,9 @@
   - `program4.hex`: Chứa chương trình thao tác với I/O Controller.
   - Các tệp `.txt` chứa chương trình ASM của các testbench tương ứng.
 
+- **`Reports`**
+  - Các tệp `.pdf` ở `main` báo cáo chi tiết thiết kế của CPU 16-bit.
+
 ## 🛠️ Công cụ sử dụng
 - **Lập trình:** C++ (Viết Assembler).
 - **Thiết kế phần cứng:** Quartus II 13.0sp1 (Dựa trên định dạng file .bdf, .vwf, .v, ...).
