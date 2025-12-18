@@ -1,0 +1,218 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 320 304)
+	(text "EX_MEM" (rect 5 0 53 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 272 25 284)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Reg_EX[15..0]" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "Reg_EX[15..0]" (rect 21 27 101 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "O_ALU_EX[15..0]" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "O_ALU_EX[15..0]" (rect 21 43 120 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "HI_EX[15..0]" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "HI_EX[15..0]" (rect 21 59 89 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "LT_EX" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "LT_EX" (rect 21 75 57 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "GT_EX" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "GT_EX" (rect 21 91 59 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "WE_EX" (rect 0 0 41 14)(font "Arial" (font_size 8)))
+		(text "WE_EX" (rect 21 107 62 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "WA_EX[2..0]" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "WA_EX[2..0]" (rect 21 123 92 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "MUL_EX" (rect 0 0 47 14)(font "Arial" (font_size 8)))
+		(text "MUL_EX" (rect 21 139 68 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "WrB_EX[1..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "WrB_EX[1..0]" (rect 21 155 96 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "DMem_EX" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "DMem_EX" (rect 21 171 77 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "RWD_EX" (rect 0 0 50 14)(font "Arial" (font_size 8)))
+		(text "RWD_EX" (rect 21 187 71 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "SignExtImm_EX[15..0]" (rect 0 0 121 14)(font "Arial" (font_size 8)))
+		(text "SignExtImm_EX[15..0]" (rect 21 203 142 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "Ins0_EX" (rect 0 0 46 14)(font "Arial" (font_size 8)))
+		(text "Ins0_EX" (rect 21 219 67 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 235 44 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240))
+	)
+	(port
+		(pt 304 32)
+		(output)
+		(text "Reg_MEM[15..0]" (rect 0 0 90 14)(font "Arial" (font_size 8)))
+		(text "Reg_MEM[15..0]" (rect 193 27 283 41)(font "Arial" (font_size 8)))
+		(line (pt 304 32)(pt 288 32)(line_width 3))
+	)
+	(port
+		(pt 304 48)
+		(output)
+		(text "O_ALU_MEM[15..0]" (rect 0 0 109 14)(font "Arial" (font_size 8)))
+		(text "O_ALU_MEM[15..0]" (rect 174 43 283 57)(font "Arial" (font_size 8)))
+		(line (pt 304 48)(pt 288 48)(line_width 3))
+	)
+	(port
+		(pt 304 64)
+		(output)
+		(text "HI_MEM[15..0]" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "HI_MEM[15..0]" (rect 204 59 283 73)(font "Arial" (font_size 8)))
+		(line (pt 304 64)(pt 288 64)(line_width 3))
+	)
+	(port
+		(pt 304 80)
+		(output)
+		(text "LT_MEM" (rect 0 0 47 14)(font "Arial" (font_size 8)))
+		(text "LT_MEM" (rect 236 75 283 89)(font "Arial" (font_size 8)))
+		(line (pt 304 80)(pt 288 80))
+	)
+	(port
+		(pt 304 96)
+		(output)
+		(text "GT_MEM" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "GT_MEM" (rect 234 91 283 105)(font "Arial" (font_size 8)))
+		(line (pt 304 96)(pt 288 96))
+	)
+	(port
+		(pt 304 112)
+		(output)
+		(text "WE_MEM" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "WE_MEM" (rect 232 107 283 121)(font "Arial" (font_size 8)))
+		(line (pt 304 112)(pt 288 112))
+	)
+	(port
+		(pt 304 128)
+		(output)
+		(text "WA_MEM[2..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "WA_MEM[2..0]" (rect 201 123 283 137)(font "Arial" (font_size 8)))
+		(line (pt 304 128)(pt 288 128)(line_width 3))
+	)
+	(port
+		(pt 304 144)
+		(output)
+		(text "MUL_MEM" (rect 0 0 57 14)(font "Arial" (font_size 8)))
+		(text "MUL_MEM" (rect 226 139 283 153)(font "Arial" (font_size 8)))
+		(line (pt 304 144)(pt 288 144))
+	)
+	(port
+		(pt 304 160)
+		(output)
+		(text "WrB_MEM[1..0]" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "WrB_MEM[1..0]" (rect 197 155 283 169)(font "Arial" (font_size 8)))
+		(line (pt 304 160)(pt 288 160)(line_width 3))
+	)
+	(port
+		(pt 304 176)
+		(output)
+		(text "DMem_MEM" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "DMem_MEM" (rect 216 171 283 185)(font "Arial" (font_size 8)))
+		(line (pt 304 176)(pt 288 176))
+	)
+	(port
+		(pt 304 192)
+		(output)
+		(text "RWD_MEM" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "RWD_MEM" (rect 222 187 283 201)(font "Arial" (font_size 8)))
+		(line (pt 304 192)(pt 288 192))
+	)
+	(port
+		(pt 304 208)
+		(output)
+		(text "SignExtImm_MEM[15..0]" (rect 0 0 132 14)(font "Arial" (font_size 8)))
+		(text "SignExtImm_MEM[15..0]" (rect 151 203 283 217)(font "Arial" (font_size 8)))
+		(line (pt 304 208)(pt 288 208)(line_width 3))
+	)
+	(port
+		(pt 304 224)
+		(output)
+		(text "Ins0_MEM" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "Ins0_MEM" (rect 227 219 283 233)(font "Arial" (font_size 8)))
+		(line (pt 304 224)(pt 288 224))
+	)
+	(drawing
+		(rectangle (rect 16 16 288 272))
+	)
+)
